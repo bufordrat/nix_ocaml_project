@@ -1,0 +1,8 @@
+(executable
+ (public_name nix_ocaml_project)
+ (name nix_ocaml_project)
+ (libraries prelude mattlude lib))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
