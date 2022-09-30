@@ -23,7 +23,7 @@ in
 
 
 pkgs.mkShell {
-  name = "cecilia-env";
+  name = "nix_ocaml_project-env";
   buildInputs = with pkgs;
       [
         ocamlPackages.dune_3
